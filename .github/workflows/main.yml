@@ -13,11 +13,8 @@ jobs:
           wait-on: http://localhost:8080/
           config_file: cypress.json
           spec: "tests/e2e/**/*"
- 
           record: true
-         
-
-
+ 
         env:
           CYPRESS_baseUrl: http://localhost:8080/
            # pass the Dashboard record key as an environment variable
